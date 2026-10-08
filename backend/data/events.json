@@ -1,0 +1,92 @@
+[
+  {
+    "id": "orientation-program",
+    "demo": true,
+    "title": "Student Orientation Program",
+    "category": "Academic",
+    "date": "",
+    "location": "Location to be confirmed",
+    "description": "Demo activity concept for introducing students to the academic environment, learning expectations and college resources. This is not an announcement of a scheduled or completed event.",
+    "image": "/assets/images/hero/campus-entrance.jpeg",
+    "image_alt": "Entrance gate of Sriram College of Nursing",
+    "image_caption": "Illustrative campus photograph, not a photograph of this event.",
+    "status": "TBC",
+    "replacement_note": "CHANGE BEFORE PUBLISHING: Replace this demo concept with an approved event record. Confirm title, date, location, status and photograph permissions. Use an ISO date in YYYY-MM-DD format when confirmed.",
+    "translations": {
+      "or": {
+        "title": "ନୂତନ ଛାତ୍ରଛାତ୍ରୀଙ୍କ ପରିଚୟ କାର୍ଯ୍ୟକ୍ରମ",
+        "category": "ଶିକ୍ଷାମୂଳକ",
+        "location": "ସ୍ଥାନ ନିଶ୍ଚିତ ହେବା ବାକି",
+        "description": "ଶିକ୍ଷା ପରିବେଶ, ଶିକ୍ଷାର ଆଶା ଏବଂ କଲେଜର ସାମଗ୍ରୀ ସହିତ ଛାତ୍ରଛାତ୍ରୀଙ୍କୁ ପରିଚିତ କରାଇବା ପାଇଁ ଏକ ନମୁନା କାର୍ଯ୍ୟକ୍ରମ ଧାରଣା। ଏହା ନିର୍ଦ୍ଧାରିତ କିମ୍ବା ସମ୍ପନ୍ନ ହୋଇଥିବା କାର୍ଯ୍ୟକ୍ରମର ଘୋଷଣା ନୁହେଁ।",
+        "image_alt": "ଶ୍ରୀରାମ କଲେଜ ଅଫ୍ ନର୍ସିଂର ପ୍ରବେଶ ଦ୍ୱାର",
+        "image_caption": "ଉଦାହରଣ ପାଇଁ କ୍ୟାମ୍ପସ୍‌ର ଫଟୋ; ଏହା ଏହି କାର୍ଯ୍ୟକ୍ରମର ଫଟୋ ନୁହେଁ।"
+      }
+    }
+  },
+  {
+    "id": "health-awareness",
+    "demo": true,
+    "title": "Health Awareness Activity",
+    "category": "Community",
+    "date": "",
+    "location": "Location to be confirmed",
+    "description": "Demo activity concept exploring health awareness and responsible care through educational discussion. The college must confirm whether an activity is planned before publishing an announcement.",
+    "image": "",
+    "image_alt": "",
+    "image_caption": "",
+    "status": "TBC",
+    "replacement_note": "CHANGE BEFORE PUBLISHING: Confirm that the event exists and obtain approved details. Do not invent participants, partners, speakers or attendance figures.",
+    "translations": {
+      "or": {
+        "title": "ସ୍ୱାସ୍ଥ୍ୟ ସଚେତନତା କାର୍ଯ୍ୟକ୍ରମ",
+        "category": "ଗୋଷ୍ଠୀ",
+        "location": "ସ୍ଥାନ ନିଶ୍ଚିତ ହେବା ବାକି",
+        "description": "ଶିକ୍ଷାମୂଳକ ଆଲୋଚନା ମାଧ୍ୟମରେ ସ୍ୱାସ୍ଥ୍ୟ ସଚେତନତା ଏବଂ ଦାୟିତ୍ୱପୂର୍ଣ୍ଣ ସେବା ବିଷୟରେ ଏକ ନମୁନା କାର୍ଯ୍ୟକ୍ରମ ଧାରଣା। ଘୋଷଣା ପ୍ରକାଶ କରିବା ପୂର୍ବରୁ ଏପରି କାର୍ଯ୍ୟକ୍ରମ ଯୋଜନା ହୋଇଛି କି ନାହିଁ କଲେଜ ନିଶ୍ଚିତ କରିବା ଆବଶ୍ୟକ।"
+      }
+    }
+  },
+  {
+    "id": "nursing-workshop",
+    "demo": true,
+    "title": "Nursing Skills Workshop",
+    "category": "Workshop",
+    "date": "",
+    "location": "Location to be confirmed",
+    "description": "Demo workshop concept for guided discussion and nursing skills demonstrations. Scheduling, teaching staff and participation details remain unconfirmed.",
+    "image": "",
+    "image_alt": "",
+    "image_caption": "",
+    "status": "TBC",
+    "replacement_note": "CHANGE BEFORE PUBLISHING: Replace with verified workshop information and authorized event photographs. Confirm date, location, facilitators and status.",
+    "translations": {
+      "or": {
+        "title": "ନର୍ସିଂ ଦକ୍ଷତା କର୍ମଶାଳା",
+        "category": "କର୍ମଶାଳା",
+        "location": "ସ୍ଥାନ ନିଶ୍ଚିତ ହେବା ବାକି",
+        "description": "ମାର୍ଗଦର୍ଶନ ସହିତ ଆଲୋଚନା ଏବଂ ନର୍ସିଂ ଦକ୍ଷତା ପ୍ରଦର୍ଶନ ପାଇଁ ଏକ ନମୁନା କର୍ମଶାଳା ଧାରଣା। ସମୟସୂଚୀ, ଶିକ୍ଷକ ଏବଂ ଅଂଶଗ୍ରହଣ ସମ୍ବନ୍ଧୀୟ ବିବରଣୀ ଏପର୍ଯ୍ୟନ୍ତ ନିଶ୍ଚିତ ହୋଇନାହିଁ।"
+      }
+    }
+  },
+  {
+    "id": "campus-cultural",
+    "demo": true,
+    "title": "Campus Cultural Activity",
+    "category": "Campus Life",
+    "date": "",
+    "location": "Location to be confirmed",
+    "description": "Demo campus activity concept for student interaction and creative participation. This profile does not confirm that the college has scheduled or hosted this activity.",
+    "image": "",
+    "image_alt": "",
+    "image_caption": "",
+    "status": "TBC",
+    "replacement_note": "CHANGE BEFORE PUBLISHING: Obtain an approved event record and photograph permissions. Do not present this demo as a past or upcoming college event.",
+    "translations": {
+      "or": {
+        "title": "କ୍ୟାମ୍ପସ୍ ସାଂସ୍କୃତିକ କାର୍ଯ୍ୟକ୍ରମ",
+        "category": "କ୍ୟାମ୍ପସ୍ ଜୀବନ",
+        "location": "ସ୍ଥାନ ନିଶ୍ଚିତ ହେବା ବାକି",
+        "description": "ଛାତ୍ରଛାତ୍ରୀଙ୍କ ମଧ୍ୟରେ ଆଲୋଚନା ଏବଂ ସୃଜନଶୀଳ ଅଂଶଗ୍ରହଣ ପାଇଁ ଏକ ନମୁନା କ୍ୟାମ୍ପସ୍ କାର୍ଯ୍ୟକ୍ରମ ଧାରଣା। ଏହି ପରିଚୟ କଲେଜ ଏପରି କାର୍ଯ୍ୟକ୍ରମ ଆୟୋଜନ କରିଛି କିମ୍ବା ନିର୍ଦ୍ଧାରଣ କରିଛି ବୋଲି ନିଶ୍ଚିତ କରେ ନାହିଁ।"
+      }
+    }
+  }
+]

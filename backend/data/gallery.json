@@ -1,0 +1,104 @@
+[
+  {
+    "id": "campus-entrance",
+    "title": "Campus Entrance",
+    "category": "Campus",
+    "description": "A supplied photograph showing the entrance gate and approach to the campus.",
+    "image": "/assets/images/hero/campus-entrance.jpeg",
+    "alt": "College entrance gate with buildings and an approach road behind it",
+    "demo": true,
+    "replacement_note": "CHANGE BEFORE PUBLISHING: Confirm the photograph attribution, permission to publish and approved English and Odia captions.",
+    "translations": {
+      "or": {
+        "title": "କ୍ୟାମ୍ପସ ପ୍ରବେଶ ଦ୍ୱାର",
+        "description": "ପ୍ରଦାନ କରାଯାଇଥିବା ଏହି ଫଟୋରେ କ୍ୟାମ୍ପସର ପ୍ରବେଶ ଦ୍ୱାର ଓ ପ୍ରବେଶ ପଥ ଦେଖାଯାଉଛି।",
+        "alt": "କଲେଜ ପ୍ରବେଶ ଦ୍ୱାର ପଛରେ ଭବନ ଓ ପ୍ରବେଶ ପଥ"
+      }
+    }
+  },
+  {
+    "id": "campus-building",
+    "title": "Campus Building",
+    "category": "Campus",
+    "description": "An exterior view of the building shown in the supplied campus photograph.",
+    "image": "/assets/images/hero/campus-building.jpeg",
+    "alt": "Exterior of a two-storey building with a college sign and an upper balcony",
+    "demo": true,
+    "replacement_note": "CHANGE BEFORE PUBLISHING: Confirm the building name, current use, photograph attribution and publication permission.",
+    "translations": {
+      "or": {
+        "title": "କ୍ୟାମ୍ପସ ଭବନ",
+        "description": "ପ୍ରଦାନ କରାଯାଇଥିବା କ୍ୟାମ୍ପସ ଫଟୋରେ ଭବନର ବାହ୍ୟ ଦୃଶ୍ୟ।",
+        "alt": "କଲେଜ ନାମଫଳକ ଓ ଉପର ମହଲାର ବାରଣ୍ଡା ଥିବା ଦୁଇ ମହଲା ଭବନ"
+      }
+    }
+  },
+  {
+    "id": "nursing-practice-space",
+    "title": "Nursing Practice Space",
+    "category": "Facilities",
+    "description": "Practice beds and training mannequins are visible in this supplied photograph. Facility details await confirmation.",
+    "image": "/assets/images/facilities/nursing-lab.jpg",
+    "alt": "Rows of practice beds with training mannequins and bedside equipment",
+    "demo": true,
+    "replacement_note": "CHANGE BEFORE PUBLISHING: Verify the facility name, location, availability and permission to use this photograph.",
+    "translations": {
+      "or": {
+        "title": "ନର୍ସିଂ ଅଭ୍ୟାସ ସ୍ଥାନ",
+        "description": "ଏହି ଫଟୋରେ ଅଭ୍ୟାସ ପାଇଁ ଶଯ୍ୟା ଓ ପ୍ରଶିକ୍ଷଣ ମଡେଲ୍ ଦେଖାଯାଉଛି। ସୁବିଧା ସମ୍ପର୍କିତ ତଥ୍ୟର ନିଶ୍ଚିତକରଣ ବାକି ଅଛି।",
+        "alt": "ପ୍ରଶିକ୍ଷଣ ମଡେଲ୍ ଓ ପାଖରେ ଉପକରଣ ଥିବା ଧାଡ଼ି ଧାଡ଼ି ଅଭ୍ୟାସ ଶଯ୍ୟା"
+      }
+    }
+  },
+  {
+    "id": "anatomy-model",
+    "title": "Anatomy Learning Model",
+    "category": "Facilities",
+    "description": "A close view of an anatomical training model from the supplied image collection.",
+    "image": "/assets/images/facilities/anatomy-model.jpg",
+    "alt": "An anatomical head and upper torso model showing internal structures",
+    "demo": true,
+    "replacement_note": "CHANGE BEFORE PUBLISHING: Confirm the image attribution, approved caption and whether the model belongs to the college.",
+    "translations": {
+      "or": {
+        "title": "ଶରୀର ଗଠନ ଶିକ୍ଷା ମଡେଲ୍",
+        "description": "ପ୍ରଦାନ କରାଯାଇଥିବା ଫଟୋ ସଂଗ୍ରହରୁ ଶରୀର ଗଠନ ସମ୍ପର୍କିତ ଏକ ପ୍ରଶିକ୍ଷଣ ମଡେଲ୍‌ର ନିକଟ ଦୃଶ୍ୟ।",
+        "alt": "ଆଭ୍ୟନ୍ତରୀଣ ଅଂଶ ଦେଖାଉଥିବା ମୁଣ୍ଡ ଓ ଉପର ଶରୀରର ଶିକ୍ଷା ମଡେଲ୍"
+      }
+    }
+  },
+  {
+    "id": "practice-materials",
+    "title": "Practice Materials",
+    "category": "Facilities",
+    "description": "A table displaying a training bag and practice materials in the supplied photograph.",
+    "image": "/assets/images/facilities/community-health-lab.jpg",
+    "alt": "A training bag, bottles and practice materials arranged on a demonstration table",
+    "demo": true,
+    "replacement_note": "CHANGE BEFORE PUBLISHING: Verify the room name, teaching context, photograph attribution and publication permission.",
+    "translations": {
+      "or": {
+        "title": "ଅଭ୍ୟାସ ସାମଗ୍ରୀ",
+        "description": "ପ୍ରଦାନ କରାଯାଇଥିବା ଫଟୋରେ ଏକ ଟେବୁଲ୍ ଉପରେ ପ୍ରଶିକ୍ଷଣ ବ୍ୟାଗ୍ ଓ ଅଭ୍ୟାସ ସାମଗ୍ରୀ ସଜାଯାଇଛି।",
+        "alt": "ପ୍ରଦର୍ଶନ ଟେବୁଲ୍ ଉପରେ ସଜାଯାଇଥିବା ପ୍ରଶିକ୍ଷଣ ବ୍ୟାଗ୍, ବୋତଲ ଓ ଅଭ୍ୟାସ ସାମଗ୍ରୀ"
+      }
+    }
+  },
+  {
+    "id": "practical-demonstration",
+    "title": "Practical Demonstration",
+    "category": "Activities",
+    "description": "Participants observing a demonstration using a training arm. The photograph's location and institutional attribution await confirmation.",
+    "image": "/assets/images/gallery/nursing-training.jpg",
+    "alt": "Participants observing a practical demonstration using a mannequin arm",
+    "demo": true,
+    "replacement_note": "CHANGE BEFORE PUBLISHING: Confirm the photograph's source, location, institutional attribution and permission to publish images of the participants. Do not identify this as an official college event without verification.",
+    "translations": {
+      "or": {
+        "title": "ବ୍ୟବହାରିକ ପ୍ରଦର୍ଶନ",
+        "description": "ଏକ ପ୍ରଶିକ୍ଷଣ ହାତ ମଡେଲ୍ ବ୍ୟବହାର କରି କରାଯାଉଥିବା ପ୍ରଦର୍ଶନକୁ ଅଂଶଗ୍ରହଣକାରୀମାନେ ଦେଖୁଛନ୍ତି। ଫଟୋର ସ୍ଥାନ ଓ ସଂସ୍ଥା ସମ୍ପର୍କିତ ନିଶ୍ଚିତକରଣ ବାକି ଅଛି।",
+        "alt": "ହାତର ପ୍ରଶିକ୍ଷଣ ମଡେଲ୍ ବ୍ୟବହାର କରି କରାଯାଉଥିବା ବ୍ୟବହାରିକ ପ୍ରଦର୍ଶନକୁ ଦେଖୁଥିବା ଅଂଶଗ୍ରହଣକାରୀମାନେ"
+      }
+    }
+  }
+]

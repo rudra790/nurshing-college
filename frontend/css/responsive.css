@@ -1,0 +1,1 @@
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr;gap:2rem}.campus-image{height:320px}}@media(max-width:480px){.container{width:calc(100% - 2rem)}.header-inner{align-items:flex-start;flex-direction:column}.brand-logo{width:210px}.campus-image{height:260px}.actions .btn{width:100%}.card{padding:1.25rem}}

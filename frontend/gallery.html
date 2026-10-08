@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Gallery | Sriram College of Nursing</title>
+
+  <meta
+    name="description"
+    content="Explore supplied photographs of campus spaces, learning materials and practical demonstrations. Gallery captions await college verification."
+  >
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#102d40">
+
+  <!-- CHANGE BEFORE PUBLISHING:
+       Replace the example domain with the official website address.
+       Verify photograph permissions and captions before removing noindex. -->
+  <link
+    rel="canonical"
+    href="https://example.invalid/gallery.html"
+  >
+
+  <meta
+    property="og:title"
+    content="Gallery | Sriram College of Nursing"
+  >
+  <meta
+    property="og:description"
+    content="A preview of supplied campus and learning photographs."
+  >
+  <meta property="og:type" content="website">
+  <meta
+    property="og:url"
+    content="https://example.invalid/gallery.html"
+  >
+
+  <!-- CHANGE BEFORE PUBLISHING: confirm the approved college favicon. -->
+  <link
+    rel="icon"
+    href="assets/icons/favicon.svg"
+    type="image/svg+xml"
+  >
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/animations.css">
+
+  <script defer src="js/api.js"></script>
+  <script defer src="js/main.js"></script>
+  <script defer src="js/gallery.js"></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">
+    Skip to content
+  </a>
+
+  <!-- main.js replaces this fallback with the shared navigation. -->
+  <header class="site-header" id="site-header">
+    <div class="announcement-bar">
+      <div class="container">
+        <!-- CHANGE BEFORE PUBLISHING: approve the announcement text. -->
+        <p class="announcement-text">
+          For course and admission information, contact the college.
+        </p>
+      </div>
+    </div>
+
+    <nav class="main-navbar" aria-label="Primary navigation">
+      <div class="container navbar-inner">
+        <a
+          class="navbar-brand"
+          href="index.html"
+          aria-label="Sriram College of Nursing home"
+        >
+          <img
+            class="navbar-logo"
+            src="assets/images/logo/college-logo.jpeg"
+            width="864"
+            height="417"
+            alt="Sriram College of Nursing — Healing Hands"
+          >
+        </a>
+
+        <div class="header-fallback-links">
+          <a href="index.html">Home</a>
+          <a href="gallery.html" aria-current="page">Gallery</a>
+          <a href="contact.html">Contact</a>
+        </div>
+
+        <div
+          class="language-switch"
+          role="group"
+          aria-label="Choose language / ଭାଷା ବାଛନ୍ତୁ"
+        >
+          <button
+            type="button"
+            data-language="en"
+            aria-pressed="true"
+            lang="en"
+          >
+            English
+          </button>
+
+          <button
+            type="button"
+            data-language="or"
+            aria-pressed="false"
+            lang="or"
+          >
+            ଓଡ଼ିଆ
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <!-- CHANGE BEFORE PUBLISHING:
+         Verify records in backend/data/gallery.json.
+         Confirm captions, photograph attribution and publication rights.
+         Do not describe unverified photographs as official college events. -->
+
+    <section
+      id="gallery"
+      class="gallery-section section surface"
+      aria-labelledby="gallery-title"
+    >
+      <div class="container">
+        <header class="section-header">
+          <p class="section-label" data-gallery-text="eyebrow">
+            Campus Life
+          </p>
+
+          <h1 id="gallery-title" data-gallery-text="title">
+            Life at Our Nursing College
+          </h1>
+
+          <p
+            class="section-description"
+            data-gallery-text="description"
+          >
+            Explore supplied photographs of campus spaces, learning
+            materials and practical demonstrations.
+          </p>
+        </header>
+
+        <p
+          class="gallery-demo-note"
+          data-gallery-text="demoNotice"
+        >
+          Gallery preview — captions, photograph attribution and
+          publication permissions await college verification.
+        </p>
+
+        <!-- gallery.js creates the translated category buttons. -->
+        <div
+          id="gallery-filters"
+          class="gallery-filters"
+          role="group"
+          aria-label="Filter gallery by category"
+          hidden
+        ></div>
+
+        <div
+          id="gallery-status"
+          class="gallery-status"
+          role="status"
+          aria-live="polite"
+          aria-atomic="true"
+          tabindex="-1"
+        >
+          <p data-gallery-text="initialStatus">
+            Gallery photographs will load here.
+          </p>
+        </div>
+
+        <!-- Gallery cards come from the read-only /api/gallery endpoint.
+             gallery.js also creates the accessible image viewer. -->
+        <div
+          id="gallery-grid"
+          class="gallery-grid"
+          aria-busy="false"
+        ></div>
+
+        <noscript>
+          <div class="gallery-noscript">
+            <p>
+              Enable JavaScript to view the gallery, filter photographs
+              and open the image viewer.
+            </p>
+
+            <p lang="or">
+              ଫଟୋ ଗ୍ୟାଲେରୀ ଦେଖିବା, ବର୍ଗ ଅନୁସାରେ ଫଟୋ ବାଛିବା
+              ଓ ବଡ଼ ଆକାରରେ ଫଟୋ ଦେଖିବା ପାଇଁ ଜାଭାସ୍କ୍ରିପ୍ଟ
+              ସକ୍ରିୟ କରନ୍ତୁ।
+            </p>
+
+            <a class="btn btn-primary" href="tel:07978109125">
+              Call the college / କଲେଜକୁ ଫୋନ୍ କରନ୍ତୁ
+            </a>
+          </div>
+        </noscript>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>
+        © <span data-year>2026</span>
+        <span data-i18n="footer">Sriram College of Nursing</span>
+      </span>
+
+      <span class="muted">Kendrapara, Odisha</span>
+    </div>
+  </footer>
+</body>
+</html>

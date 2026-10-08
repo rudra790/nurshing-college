@@ -1,0 +1,54 @@
+[
+  {
+    "id": "clinical-skills",
+    "demo": true,
+    "title": "Clinical Skills Development",
+    "category": "Practical Learning",
+    "description": "Guided demonstrations and simulation practice can help connect nursing theory with practical skills. This is a demo educational description; the college must confirm its actual teaching activities and supervision arrangements.",
+    "image": "/assets/images/gallery/nursing-training.jpg",
+    "image_alt": "A nursing skills demonstration using a mannequin arm, observed by a group of learners",
+    "replacement_note": "CHANGE BEFORE PUBLISHING: Replace this demo description with approved college information. Confirm photograph attribution and publication permission. Set demo to false only after verification.",
+    "translations": {
+      "or": {
+        "title": "ବ୍ୟବହାରିକ ନର୍ସିଂ ଦକ୍ଷତାର ବିକାଶ",
+        "category": "ବ୍ୟବହାରିକ ଶିକ୍ଷା",
+        "description": "ମାର୍ଗଦର୍ଶନ ସହିତ ପ୍ରଦର୍ଶନ ଏବଂ ମଡେଲ୍ ଉପରେ ଅଭ୍ୟାସ ନର୍ସିଂର ତାତ୍ତ୍ୱିକ ଜ୍ଞାନକୁ ବ୍ୟବହାରିକ ଦକ୍ଷତା ସହିତ ଯୋଡ଼ିବାରେ ସହାୟକ ହୋଇପାରେ। ଏହା ଏକ ନମୁନା ଶିକ୍ଷାମୂଳକ ବିବରଣୀ; କଲେଜ ଏହାର ପ୍ରକୃତ ଶିକ୍ଷା କାର୍ଯ୍ୟକଳାପ ଏବଂ ତତ୍ତ୍ୱାବଧାନ ବ୍ୟବସ୍ଥା ନିଶ୍ଚିତ କରିବା ଆବଶ୍ୟକ।",
+        "image_alt": "ଶିକ୍ଷାର୍ଥୀମାନେ ଦେଖୁଥିବା ସମୟରେ ମଡେଲ୍ ହାତ ଉପରେ ନର୍ସିଂ ଦକ୍ଷତାର ପ୍ରଦର୍ଶନ"
+      }
+    }
+  },
+  {
+    "id": "patient-care",
+    "demo": true,
+    "title": "Patient Care Principles",
+    "category": "Care and Responsibility",
+    "description": "Practical nursing education can explore respectful communication, patient dignity and responsible care through guided learning and simulated situations. This demo profile does not confirm patient access or clinical placements.",
+    "image": "",
+    "image_alt": "",
+    "replacement_note": "CHANGE BEFORE PUBLISHING: Confirm the college's approved learning activities. Add an authorized photograph only if it accurately represents this topic. Do not imply guaranteed patient access or placements.",
+    "translations": {
+      "or": {
+        "title": "ରୋଗୀ ସେବାର ମୂଳନୀତି",
+        "category": "ସେବା ଏବଂ ଦାୟିତ୍ୱ",
+        "description": "ବ୍ୟବହାରିକ ନର୍ସିଂ ଶିକ୍ଷାରେ ମାର୍ଗଦର୍ଶନ ଏବଂ ଅନୁକରଣ ଅଭ୍ୟାସ ମାଧ୍ୟମରେ ସମ୍ମାନପୂର୍ଣ୍ଣ ଯୋଗାଯୋଗ, ରୋଗୀଙ୍କ ମର୍ଯ୍ୟାଦା ଏବଂ ଦାୟିତ୍ୱପୂର୍ଣ୍ଣ ସେବା ବିଷୟରେ ଶିଖାଯାଇପାରେ। ଏହି ନମୁନା ପରିଚୟ ରୋଗୀଙ୍କ ସହିତ ଅଭ୍ୟାସ କିମ୍ବା କ୍ଲିନିକାଲ୍ ପ୍ଲେସମେଣ୍ଟ ନିଶ୍ଚିତ କରେ ନାହିଁ।"
+      }
+    }
+  },
+  {
+    "id": "clinical-awareness",
+    "demo": true,
+    "title": "Clinical Awareness and Preparation",
+    "category": "Professional Preparation",
+    "description": "Learning about healthcare environments can complement classroom study and support awareness of professional responsibilities. Any clinical observation, hospital access or practical exposure depends on verified institutional arrangements and applicable requirements.",
+    "image": "",
+    "image_alt": "",
+    "replacement_note": "CHANGE BEFORE PUBLISHING: Replace with verified clinical exposure information. Do not add hospital names, partnerships, affiliations or placement guarantees without official confirmation.",
+    "translations": {
+      "or": {
+        "title": "କ୍ଲିନିକାଲ୍ ସଚେତନତା ଏବଂ ପ୍ରସ୍ତୁତି",
+        "category": "ବୃତ୍ତିଗତ ପ୍ରସ୍ତୁତି",
+        "description": "ସ୍ୱାସ୍ଥ୍ୟସେବା ପରିବେଶ ବିଷୟରେ ଶିକ୍ଷା ଶ୍ରେଣୀକକ୍ଷ ଅଧ୍ୟୟନକୁ ପୂରକ କରିପାରେ ଏବଂ ବୃତ୍ତିଗତ ଦାୟିତ୍ୱ ସମ୍ବନ୍ଧୀୟ ସଚେତନତା ବଢ଼ାଇପାରେ। କ୍ଲିନିକାଲ୍ ପର୍ଯ୍ୟବେକ୍ଷଣ, ହସ୍ପିଟାଲ୍ ପ୍ରବେଶ କିମ୍ବା ବ୍ୟବହାରିକ ଅନୁଭବ ଯାଞ୍ଚ ହୋଇଥିବା ପ୍ରତିଷ୍ଠାନର ବ୍ୟବସ୍ଥା ଏବଂ ପ୍ରଯୁଜ୍ୟ ନିୟମ ଉପରେ ନିର୍ଭର କରେ।"
+      }
+    }
+  }
+]

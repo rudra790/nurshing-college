@@ -1,0 +1,78 @@
+[
+  {
+    "id": "admission-information",
+    "title": "Admission Information — Demo",
+    "category": "Admissions",
+    "date": "",
+    "status": "Information",
+    "summary": "Contact the college for current course and admission information.",
+    "content": "This is a demonstration notice, not an official admission announcement.\n\nPlease contact Sriram College of Nursing for verified information about available courses, eligibility, application procedures and admission schedules.\n\nThis notice does not confirm that admissions are open or that any application deadline has been announced.",
+    "featured": true,
+    "demo": true,
+    "replacement_note": "CHANGE BEFORE PUBLISHING: Replace with college-approved admission information. Add the verified publication date in YYYY-MM-DD format. Set demo to false only after approval.",
+    "translations": {
+      "or": {
+        "title": "ନାମଲେଖା ସୂଚନା — ନମୁନା",
+        "summary": "ବର୍ତ୍ତମାନର ପାଠ୍ୟକ୍ରମ ଓ ନାମଲେଖା ସୂଚନା ପାଇଁ କଲେଜ ସହ ଯୋଗାଯୋଗ କରନ୍ତୁ।",
+        "content": "ଏହା ଏକ ନମୁନା ସୂଚନା, କଲେଜର ଅଧିକୃତ ନାମଲେଖା ଘୋଷଣା ନୁହେଁ।\n\nଉପଲବ୍ଧ ପାଠ୍ୟକ୍ରମ, ଯୋଗ୍ୟତା, ଆବେଦନ ପ୍ରକ୍ରିୟା ଓ ନାମଲେଖା ସମୟସୂଚୀ ସମ୍ପର୍କରେ ଯାଞ୍ଚ ହୋଇଥିବା ତଥ୍ୟ ପାଇଁ ଶ୍ରୀରାମ କଲେଜ ଅଫ୍ ନର୍ସିଂ ସହ ଯୋଗାଯୋଗ କରନ୍ତୁ।\n\nଏହି ସୂଚନା ନାମଲେଖା ଆରମ୍ଭ ହୋଇଥିବା କିମ୍ବା ଆବେଦନର ଶେଷ ତାରିଖ ଘୋଷଣା ହୋଇଥିବା ନିଶ୍ଚିତ କରେ ନାହିଁ।"
+      }
+    }
+  },
+  {
+    "id": "academic-information",
+    "title": "Academic Information — Demo",
+    "category": "Academic",
+    "date": "",
+    "status": "Information",
+    "summary": "A sample notice for future college-approved academic information.",
+    "content": "This is a demonstration of how academic information will appear on the website.\n\nVerified academic instructions and learning-related information can be added here after college approval.\n\nNo class timetable, examination date, result date or academic regulation is announced through this sample notice.",
+    "featured": false,
+    "demo": true,
+    "replacement_note": "CHANGE BEFORE PUBLISHING: Replace the sample text with approved academic information and a verified publication date. Set demo to false only after approval.",
+    "translations": {
+      "or": {
+        "title": "ଶିକ୍ଷା ସମ୍ପର୍କିତ ସୂଚନା — ନମୁନା",
+        "summary": "ଭବିଷ୍ୟତରେ କଲେଜ ଅନୁମୋଦିତ ଶିକ୍ଷା ସମ୍ପର୍କିତ ତଥ୍ୟ ପ୍ରକାଶ ପାଇଁ ଏକ ନମୁନା ସୂଚନା।",
+        "content": "ୱେବସାଇଟ୍‌ରେ ଶିକ୍ଷା ସମ୍ପର୍କିତ ସୂଚନା କିପରି ଦେଖାଯିବ, ଏହା ତାହାର ଏକ ନମୁନା।\n\nକଲେଜର ଅନୁମୋଦନ ପରେ ଯାଞ୍ଚ ହୋଇଥିବା ଶିକ୍ଷା ନିର୍ଦ୍ଦେଶ ଓ ପାଠପଢ଼ା ସମ୍ପର୍କିତ ତଥ୍ୟ ଏଠାରେ ଯୋଡ଼ାଯାଇପାରିବ।\n\nଏହି ନମୁନା ସୂଚନାରେ କୌଣସି ଶ୍ରେଣୀ ସମୟସୂଚୀ, ପରୀକ୍ଷା ତାରିଖ, ଫଳାଫଳ ତାରିଖ କିମ୍ବା ଶିକ୍ଷା ସମ୍ପର୍କିତ ନିୟମ ଘୋଷଣା କରାଯାଇନାହିଁ।"
+      }
+    }
+  },
+  {
+    "id": "campus-information",
+    "title": "Campus Information — Demo",
+    "category": "Campus",
+    "date": "",
+    "status": "Information",
+    "summary": "A sample space for verified campus announcements and visitor information.",
+    "content": "This is a demonstration notice for campus-related information.\n\nCollege-approved announcements and visitor guidance can be published here when available.\n\nNo campus event, orientation programme or visiting schedule is confirmed by this sample. Contact the college before making travel arrangements.",
+    "featured": false,
+    "demo": true,
+    "replacement_note": "CHANGE BEFORE PUBLISHING: Add approved campus information. Verify any event details or visiting arrangements before publication. Add the publication date and update the demo flag after approval.",
+    "translations": {
+      "or": {
+        "title": "କ୍ୟାମ୍ପସ ସୂଚନା — ନମୁନା",
+        "summary": "ଯାଞ୍ଚ ହୋଇଥିବା କ୍ୟାମ୍ପସ ଘୋଷଣା ଓ ପରିଦର୍ଶକଙ୍କ ସୂଚନା ପାଇଁ ଏକ ନମୁନା ସ୍ଥାନ।",
+        "content": "ଏହା କ୍ୟାମ୍ପସ ସମ୍ପର୍କିତ ତଥ୍ୟ ପାଇଁ ଏକ ନମୁନା ସୂଚନା।\n\nକଲେଜ ଅନୁମୋଦିତ ଘୋଷଣା ଓ ପରିଦର୍ଶକଙ୍କ ପାଇଁ ନିର୍ଦ୍ଦେଶ ଉପଲବ୍ଧ ହେଲେ ଏଠାରେ ପ୍ରକାଶ କରାଯାଇପାରିବ।\n\nଏହି ନମୁନା କୌଣସି କ୍ୟାମ୍ପସ କାର୍ଯ୍ୟକ୍ରମ, ପରିଚୟ କାର୍ଯ୍ୟକ୍ରମ କିମ୍ବା ପରିଦର୍ଶନ ସମୟସୂଚୀ ନିଶ୍ଚିତ କରେ ନାହିଁ। ଯାତ୍ରା ବ୍ୟବସ୍ଥା କରିବା ପୂର୍ବରୁ କଲେଜ ସହ ଯୋଗାଯୋଗ କରନ୍ତୁ।"
+      }
+    }
+  },
+  {
+    "id": "general-information",
+    "title": "General Information — Demo",
+    "category": "General",
+    "date": "",
+    "status": "Information",
+    "summary": "Please confirm important information directly with the college.",
+    "content": "This notice board currently contains demonstration content for website development.\n\nSample notices are not official circulars. Their titles, descriptions and publication dates must be reviewed by the college before they are presented as confirmed information.\n\nFor current information, contact Sriram College of Nursing on 079781 09125.",
+    "featured": false,
+    "demo": true,
+    "replacement_note": "CHANGE BEFORE PUBLISHING: Replace with an approved general notice, verify contact details and add the publication date. Set demo to false only after approval.",
+    "translations": {
+      "or": {
+        "title": "ସାଧାରଣ ସୂଚନା — ନମୁନା",
+        "summary": "ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ତଥ୍ୟ ସିଧାସଳଖ କଲେଜ ସହ ଯୋଗାଯୋଗ କରି ନିଶ୍ଚିତ କରନ୍ତୁ।",
+        "content": "ଏହି ସୂଚନା ଫଳକରେ ବର୍ତ୍ତମାନ ୱେବସାଇଟ୍ ବିକାଶ ପାଇଁ ନମୁନା ବିଷୟବସ୍ତୁ ରହିଛି।\n\nନମୁନା ସୂଚନାଗୁଡ଼ିକ ଅଧିକୃତ ବିଜ୍ଞପ୍ତି ନୁହେଁ। ନିଶ୍ଚିତ ତଥ୍ୟ ଭାବେ ପ୍ରକାଶ କରିବା ପୂର୍ବରୁ ସେଗୁଡ଼ିକର ଶୀର୍ଷକ, ବିବରଣୀ ଓ ପ୍ରକାଶନ ତାରିଖ କଲେଜ ଦ୍ୱାରା ଯାଞ୍ଚ କରାଯିବା ଆବଶ୍ୟକ।\n\nବର୍ତ୍ତମାନର ତଥ୍ୟ ପାଇଁ 079781 09125 ନମ୍ବରରେ ଶ୍ରୀରାମ କଲେଜ ଅଫ୍ ନର୍ସିଂ ସହ ଯୋଗାଯୋଗ କରନ୍ତୁ।"
+      }
+    }
+  }
+]

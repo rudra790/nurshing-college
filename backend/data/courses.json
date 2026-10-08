@@ -1,0 +1,86 @@
+[
+  {
+    "id": "bsc-nursing",
+    "name": "B.Sc. Nursing",
+    "short_name": "B.Sc. Nursing",
+    "demo": true,
+    "availability": "Program availability to be confirmed",
+    "duration": "Duration to be confirmed",
+    "eligibility": "Eligibility details to be confirmed",
+    "intake": "Intake to be confirmed",
+    "overview": "A proposed program overview covering nursing knowledge, practical learning, patient care and professional responsibility.",
+    "career": "Potential nursing and healthcare pathways; requirements vary by role.",
+    "image": "/assets/images/gallery/nursing-training.jpg",
+    "image_alt": "A practical nursing demonstration with students gathered around a training bed",
+    "replacement_note": "CHANGE BEFORE PUBLISHING: this is a demo entry. Confirm program availability, official name, duration, eligibility, intake, overview and career information with the college. The image illustrates nursing learning and is not verified as specific to this program.",
+    "translations": {
+      "or": {
+        "name": "ବି.ଏସ୍‌ସି. ନର୍ସିଂ",
+        "short_name": "B.Sc. Nursing",
+        "availability": "ପାଠ୍ୟକ୍ରମର ଉପଲବ୍ଧତା ନିଶ୍ଚିତ ହେବା ବାକି",
+        "duration": "ପାଠ୍ୟକ୍ରମର ଅବଧି ନିଶ୍ଚିତ ହେବା ବାକି",
+        "eligibility": "ଯୋଗ୍ୟତାର ବିବରଣୀ ନିଶ୍ଚିତ ହେବା ବାକି",
+        "intake": "ଆସନ ସଂଖ୍ୟା ନିଶ୍ଚିତ ହେବା ବାକି",
+        "overview": "ନର୍ସିଂ ଜ୍ଞାନ, ବ୍ୟବହାରିକ ଶିକ୍ଷା, ରୋଗୀଙ୍କ ଯତ୍ନ ଓ ବୃତ୍ତିଗତ ଦାୟିତ୍ୱ ସମ୍ବନ୍ଧୀୟ ଏକ ପ୍ରସ୍ତାବିତ ପାଠ୍ୟକ୍ରମ ପରିଚୟ।",
+        "career": "ନର୍ସିଂ ଓ ସ୍ୱାସ୍ଥ୍ୟସେବାରେ ସମ୍ଭାବ୍ୟ ବୃତ୍ତିଗତ ପଥ; ପଦବୀ ଅନୁଯାୟୀ ଆବଶ୍ୟକତା ଭିନ୍ନ ହୋଇପାରେ।",
+        "image_alt": "ଏକ ପ୍ରଶିକ୍ଷଣ ଶଯ୍ୟା ଚାରିପାଖରେ ଛାତ୍ରଛାତ୍ରୀଙ୍କ ସହ ବ୍ୟବହାରିକ ନର୍ସିଂ ପ୍ରଦର୍ଶନ"
+      }
+    }
+  },
+  {
+    "id": "gnm",
+    "name": "General Nursing and Midwifery",
+    "short_name": "GNM",
+    "demo": true,
+    "availability": "Program availability to be confirmed",
+    "duration": "Duration to be confirmed",
+    "eligibility": "Eligibility details to be confirmed",
+    "intake": "Intake to be confirmed",
+    "overview": "A proposed program overview introducing nursing practice, patient care and learning related to midwifery.",
+    "career": "Potential nursing and healthcare pathways; requirements vary by role.",
+    "image": "/assets/images/facilities/nursing-lab.jpg",
+    "image_alt": "Nursing skills laboratory with training beds and practice mannequins",
+    "replacement_note": "CHANGE BEFORE PUBLISHING: this is a demo entry. Confirm program availability, official name, duration, eligibility, intake, overview and career information with the college. The image illustrates nursing learning and is not verified as specific to this program.",
+    "translations": {
+      "or": {
+        "name": "ଜେନେରାଲ୍ ନର୍ସିଂ ଆଣ୍ଡ୍ ମିଡ୍‌ୱାଇଫେରି",
+        "short_name": "GNM",
+        "availability": "ପାଠ୍ୟକ୍ରମର ଉପଲବ୍ଧତା ନିଶ୍ଚିତ ହେବା ବାକି",
+        "duration": "ପାଠ୍ୟକ୍ରମର ଅବଧି ନିଶ୍ଚିତ ହେବା ବାକି",
+        "eligibility": "ଯୋଗ୍ୟତାର ବିବରଣୀ ନିଶ୍ଚିତ ହେବା ବାକି",
+        "intake": "ଆସନ ସଂଖ୍ୟା ନିଶ୍ଚିତ ହେବା ବାକି",
+        "overview": "ନର୍ସିଂ ଅଭ୍ୟାସ, ରୋଗୀଙ୍କ ଯତ୍ନ ଓ ମିଡ୍‌ୱାଇଫେରି ସମ୍ବନ୍ଧୀୟ ଶିକ୍ଷାର ଏକ ପ୍ରସ୍ତାବିତ ପାଠ୍ୟକ୍ରମ ପରିଚୟ।",
+        "career": "ନର୍ସିଂ ଓ ସ୍ୱାସ୍ଥ୍ୟସେବାରେ ସମ୍ଭାବ୍ୟ ବୃତ୍ତିଗତ ପଥ; ପଦବୀ ଅନୁଯାୟୀ ଆବଶ୍ୟକତା ଭିନ୍ନ ହୋଇପାରେ।",
+        "image_alt": "ପ୍ରଶିକ୍ଷଣ ଶଯ୍ୟା ଓ ଅଭ୍ୟାସ ପାଇଁ ମାନେକିନ୍ ଥିବା ନର୍ସିଂ ଦକ୍ଷତା ପରୀକ୍ଷାଗାର"
+      }
+    }
+  },
+  {
+    "id": "anm",
+    "name": "Auxiliary Nursing and Midwifery",
+    "short_name": "ANM",
+    "demo": true,
+    "availability": "Program availability to be confirmed",
+    "duration": "Duration to be confirmed",
+    "eligibility": "Eligibility details to be confirmed",
+    "intake": "Intake to be confirmed",
+    "overview": "A proposed program overview introducing foundational nursing, community health and care-related practical learning.",
+    "career": "Potential community healthcare pathways; requirements vary by role.",
+    "image": "/assets/images/facilities/community-health-lab.jpg",
+    "image_alt": "Training room with community health practice materials and a bag-technique display",
+    "replacement_note": "CHANGE BEFORE PUBLISHING: this is a demo entry. Confirm program availability, official name, duration, eligibility, intake, overview and career information with the college. The image illustrates nursing learning and is not verified as specific to this program.",
+    "translations": {
+      "or": {
+        "name": "ଅକ୍ସିଲିଆରୀ ନର୍ସିଂ ଆଣ୍ଡ୍ ମିଡ୍‌ୱାଇଫେରି",
+        "short_name": "ANM",
+        "availability": "ପାଠ୍ୟକ୍ରମର ଉପଲବ୍ଧତା ନିଶ୍ଚିତ ହେବା ବାକି",
+        "duration": "ପାଠ୍ୟକ୍ରମର ଅବଧି ନିଶ୍ଚିତ ହେବା ବାକି",
+        "eligibility": "ଯୋଗ୍ୟତାର ବିବରଣୀ ନିଶ୍ଚିତ ହେବା ବାକି",
+        "intake": "ଆସନ ସଂଖ୍ୟା ନିଶ୍ଚିତ ହେବା ବାକି",
+        "overview": "ମୌଳିକ ନର୍ସିଂ, ସମୁଦାୟ ସ୍ୱାସ୍ଥ୍ୟ ଓ ଯତ୍ନ ସମ୍ବନ୍ଧୀୟ ବ୍ୟବହାରିକ ଶିକ୍ଷାର ଏକ ପ୍ରସ୍ତାବିତ ପାଠ୍ୟକ୍ରମ ପରିଚୟ।",
+        "career": "ସମୁଦାୟ ସ୍ୱାସ୍ଥ୍ୟସେବାରେ ସମ୍ଭାବ୍ୟ ବୃତ୍ତିଗତ ପଥ; ପଦବୀ ଅନୁଯାୟୀ ଆବଶ୍ୟକତା ଭିନ୍ନ ହୋଇପାରେ।",
+        "image_alt": "ସମୁଦାୟ ସ୍ୱାସ୍ଥ୍ୟ ଅଭ୍ୟାସ ସାମଗ୍ରୀ ଓ ବ୍ୟାଗ୍ ଟେକ୍ନିକ୍ ପ୍ରଦର୍ଶନ ଥିବା ପ୍ରଶିକ୍ଷଣ କକ୍ଷ"
+      }
+    }
+  }
+]

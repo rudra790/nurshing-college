@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Faculty | Sriram College of Nursing</title>
+  <meta
+    name="description"
+    content="Faculty profile preview for Sriram College of Nursing, Kendrapara, Odisha. Demo information awaits college verification."
+  >
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#102d40">
+
+  <!-- CHANGE BEFORE PUBLISHING:
+       Replace the domain and approve all faculty information.
+       Remove noindex only after verifying public content. -->
+  <link rel="canonical" href="https://example.invalid/faculty.html">
+
+  <meta property="og:title" content="Faculty | Sriram College of Nursing">
+  <meta
+    property="og:description"
+    content="Faculty profile preview. Information awaits college verification."
+  >
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.invalid/faculty.html">
+
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/animations.css">
+
+  <script defer src="js/api.js"></script>
+  <script defer src="js/main.js"></script>
+  <script defer src="js/faculty.js"></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">
+    Skip to content
+  </a>
+
+  <!-- main.js builds the shared navigation here. -->
+  <header class="site-header" id="site-header">
+    <nav class="main-navbar" aria-label="Primary navigation">
+      <div class="container navbar-inner">
+        <a
+          class="navbar-brand"
+          href="index.html"
+          aria-label="Sriram College of Nursing home"
+        >
+          <img
+            class="navbar-logo"
+            src="assets/images/logo/college-logo.jpeg"
+            alt="Sriram College of Nursing — Healing Hands"
+            width="864"
+            height="417"
+          >
+        </a>
+
+        <div class="header-fallback-links">
+          <a href="index.html">Home</a>
+          <a href="contact.html">Contact</a>
+        </div>
+
+        <div
+          class="language-switch"
+          role="group"
+          aria-label="Choose language / ଭାଷା ବାଛନ୍ତୁ"
+        >
+          <button
+            type="button"
+            data-language="en"
+            aria-pressed="true"
+            lang="en"
+          >
+            English
+          </button>
+
+          <button
+            type="button"
+            data-language="or"
+            aria-pressed="false"
+            lang="or"
+          >
+            ଓଡ଼ିଆ
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <!-- CHANGE BEFORE PUBLISHING:
+         Replace demo faculty records with verified information
+         in backend/data/faculty.json. -->
+    <section
+      id="faculty"
+      class="faculty-section section"
+      aria-labelledby="faculty-title"
+    >
+      <div class="container">
+        <header class="section-header">
+          <p class="section-label" data-faculty-text="eyebrow">
+            Our Faculty
+          </p>
+
+          <h1 id="faculty-title" data-faculty-text="title">
+            Guided by Knowledge. Inspired by Compassion.
+          </h1>
+
+          <p class="section-description" data-faculty-text="description">
+            Explore our demo faculty profiles. Verified information about
+            teaching staff, qualifications and areas of expertise will be
+            added after college confirmation.
+          </p>
+        </header>
+
+        <p class="faculty-demo-note" data-faculty-text="demoNotice">
+          Demo profiles — names, designations, qualifications, experience
+          and specializations require college verification.
+        </p>
+
+        <div
+          id="faculty-status"
+          class="faculty-status"
+          role="status"
+          aria-live="polite"
+          aria-atomic="true"
+        >
+          <p data-faculty-text="initialStatus">
+            Faculty information will load here.
+          </p>
+        </div>
+
+        <!-- faculty.js renders records from /api/faculty. -->
+        <div
+          id="faculty-grid"
+          class="faculty-grid"
+          aria-busy="false"
+        ></div>
+
+        <noscript>
+          <div class="faculty-noscript">
+            <p>
+              JavaScript is required to load faculty profiles.
+              Please contact the college for faculty information.
+            </p>
+            <p lang="or">
+              ଅଧ୍ୟାପକଙ୍କ ପରିଚୟ ଦେଖିବା ପାଇଁ ଜାଭାସ୍କ୍ରିପ୍ଟ ଆବଶ୍ୟକ।
+              ଅଧ୍ୟାପକଙ୍କ ସମ୍ବନ୍ଧୀୟ ତଥ୍ୟ ପାଇଁ କଲେଜ ସହ ଯୋଗାଯୋଗ କରନ୍ତୁ।
+            </p>
+            <a class="btn btn-primary" href="contact.html">
+              Contact / ଯୋଗାଯୋଗ
+            </a>
+          </div>
+        </noscript>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>
+        © <span data-year>2026</span>
+        <span data-i18n="footer">Sriram College of Nursing</span>
+      </span>
+      <span class="muted">Kendrapara, Odisha</span>
+    </div>
+  </footer>
+</body>
+</html>

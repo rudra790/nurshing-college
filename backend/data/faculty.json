@@ -1,0 +1,68 @@
+[
+  {
+    "id": "faculty-01",
+    "demo": true,
+    "name": "Demo Faculty Profile 01",
+    "designation": "Designation to be confirmed",
+    "qualification": "Qualification to be confirmed",
+    "experience": "Experience details to be confirmed",
+    "specialization": "Specialization to be confirmed",
+    "image": "",
+    "image_alt": "Faculty profile placeholder",
+    "replacement_note": "CHANGE BEFORE PUBLISHING: Replace this demo record with college-approved faculty information and an authorized local photograph. Set demo to false only after verification.",
+    "translations": {
+      "or": {
+        "name": "ନମୁନା ଅଧ୍ୟାପକ ପରିଚୟ ୦୧",
+        "designation": "ପଦବୀ ନିଶ୍ଚିତ ହେବା ବାକି",
+        "qualification": "ଶିକ୍ଷାଗତ ଯୋଗ୍ୟତା ନିଶ୍ଚିତ ହେବା ବାକି",
+        "experience": "ଅଭିଜ୍ଞତାର ବିବରଣୀ ନିଶ୍ଚିତ ହେବା ବାକି",
+        "specialization": "ବିଶେଷଜ୍ଞତା ନିଶ୍ଚିତ ହେବା ବାକି",
+        "image_alt": "ଅଧ୍ୟାପକ ପରିଚୟ ପାଇଁ ନମୁନା ଚିତ୍ର"
+      }
+    }
+  },
+  {
+    "id": "faculty-02",
+    "demo": true,
+    "name": "Demo Faculty Profile 02",
+    "designation": "Designation to be confirmed",
+    "qualification": "Qualification to be confirmed",
+    "experience": "Experience details to be confirmed",
+    "specialization": "Specialization to be confirmed",
+    "image": "",
+    "image_alt": "Faculty profile placeholder",
+    "replacement_note": "CHANGE BEFORE PUBLISHING: Replace this demo record with college-approved faculty information and an authorized local photograph. Set demo to false only after verification.",
+    "translations": {
+      "or": {
+        "name": "ନମୁନା ଅଧ୍ୟାପକ ପରିଚୟ ୦୨",
+        "designation": "ପଦବୀ ନିଶ୍ଚିତ ହେବା ବାକି",
+        "qualification": "ଶିକ୍ଷାଗତ ଯୋଗ୍ୟତା ନିଶ୍ଚିତ ହେବା ବାକି",
+        "experience": "ଅଭିଜ୍ଞତାର ବିବରଣୀ ନିଶ୍ଚିତ ହେବା ବାକି",
+        "specialization": "ବିଶେଷଜ୍ଞତା ନିଶ୍ଚିତ ହେବା ବାକି",
+        "image_alt": "ଅଧ୍ୟାପକ ପରିଚୟ ପାଇଁ ନମୁନା ଚିତ୍ର"
+      }
+    }
+  },
+  {
+    "id": "faculty-03",
+    "demo": true,
+    "name": "Demo Faculty Profile 03",
+    "designation": "Designation to be confirmed",
+    "qualification": "Qualification to be confirmed",
+    "experience": "Experience details to be confirmed",
+    "specialization": "Specialization to be confirmed",
+    "image": "",
+    "image_alt": "Faculty profile placeholder",
+    "replacement_note": "CHANGE BEFORE PUBLISHING: Replace this demo record with college-approved faculty information and an authorized local photograph. Set demo to false only after verification.",
+    "translations": {
+      "or": {
+        "name": "ନମୁନା ଅଧ୍ୟାପକ ପରିଚୟ ୦୩",
+        "designation": "ପଦବୀ ନିଶ୍ଚିତ ହେବା ବାକି",
+        "qualification": "ଶିକ୍ଷାଗତ ଯୋଗ୍ୟତା ନିଶ୍ଚିତ ହେବା ବାକି",
+        "experience": "ଅଭିଜ୍ଞତାର ବିବରଣୀ ନିଶ୍ଚିତ ହେବା ବାକି",
+        "specialization": "ବିଶେଷଜ୍ଞତା ନିଶ୍ଚିତ ହେବା ବାକି",
+        "image_alt": "ଅଧ୍ୟାପକ ପରିଚୟ ପାଇଁ ନମୁନା ଚିତ୍ର"
+      }
+    }
+  }
+]

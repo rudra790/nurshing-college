@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Courses | Sriram College of Nursing</title>
+  <meta
+    name="description"
+    content="Explore demo nursing program profiles for Sriram College of Nursing, Kendrapara, Odisha. Contact the college for confirmed course and admission information."
+  >
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#102d40">
+
+  <!-- CHANGE BEFORE PUBLISHING:
+       Replace example.invalid with the approved domain.
+       Verify program information before removing noindex. -->
+  <link rel="canonical" href="https://example.invalid/courses.html">
+
+  <meta property="og:title" content="Courses | Sriram College of Nursing">
+  <meta
+    property="og:description"
+    content="Demo nursing program profiles. Course availability and admission details require college confirmation."
+  >
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.invalid/courses.html">
+
+  <!-- CHANGE BEFORE PUBLISHING: use an approved college favicon. -->
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/animations.css">
+
+  <script defer src="js/api.js"></script>
+  <script defer src="js/main.js"></script>
+  <script defer src="js/courses.js"></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">
+    Skip to content
+  </a>
+
+  <!-- main.js replaces this fallback with shared navigation. -->
+  <header class="site-header" id="site-header">
+    <div class="announcement-bar">
+      <div class="container">
+        <!-- CHANGE BEFORE PUBLISHING: approve announcement text. -->
+        <p class="announcement-text">
+          For course and admission information, contact the college.
+        </p>
+      </div>
+    </div>
+
+    <nav class="main-navbar" aria-label="Primary navigation">
+      <div class="container navbar-inner">
+        <a
+          class="navbar-brand"
+          href="index.html"
+          aria-label="Sriram College of Nursing home"
+        >
+          <img
+            class="navbar-logo"
+            src="assets/images/logo/college-logo.jpeg"
+            alt="Sriram College of Nursing — Healing Hands"
+            width="864"
+            height="417"
+          >
+        </a>
+
+        <div class="header-fallback-links">
+          <a href="index.html">Home</a>
+          <a href="contact.html">Contact</a>
+        </div>
+
+        <div
+          class="language-switch"
+          role="group"
+          aria-label="Choose language / ଭାଷା ବାଛନ୍ତୁ"
+        >
+          <button
+            type="button"
+            data-language="en"
+            aria-pressed="true"
+            lang="en"
+          >
+            English
+          </button>
+
+          <button
+            type="button"
+            data-language="or"
+            aria-pressed="false"
+            lang="or"
+          >
+            ଓଡ଼ିଆ
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <!-- CHANGE BEFORE PUBLISHING:
+         Replace demo records in backend/data/courses.json with
+         college-approved program information.
+         Do not treat demo programs as confirmed offerings. -->
+    <section
+      class="courses-section section"
+      id="courses"
+      aria-labelledby="courses-title"
+    >
+      <div class="container">
+        <header class="section-header">
+          <p class="section-label" data-courses-text="eyebrow">
+            Our Programs
+          </p>
+
+          <h1 id="courses-title" data-courses-text="title">
+            Explore Your Path in Nursing
+          </h1>
+
+          <p class="section-description" data-courses-text="description">
+            Explore these demo program profiles and contact the college
+            for confirmed course availability and admission information.
+          </p>
+        </header>
+
+        <p class="courses-demo-note" data-courses-text="demoNotice">
+          Demo programs — availability, duration, eligibility and intake
+          require college confirmation.
+        </p>
+
+        <div
+          class="courses-status"
+          id="courses-status"
+          role="status"
+          aria-live="polite"
+          aria-atomic="true"
+        >
+          <p data-courses-text="initialStatus">
+            Program information will load here.
+          </p>
+        </div>
+
+        <!-- courses.js renders program records from /api/courses. -->
+        <div
+          class="courses-grid"
+          id="courses-grid"
+          aria-busy="false"
+        ></div>
+
+        <noscript>
+          <div class="courses-noscript">
+            <p>
+              JavaScript is required to load program information.
+              Please contact the college for verified details.
+            </p>
+
+            <p lang="or">
+              ପାଠ୍ୟକ୍ରମ ସୂଚନା ଦେଖିବା ପାଇଁ ଜାଭାସ୍କ୍ରିପ୍ଟ ଆବଶ୍ୟକ।
+              ଯାଞ୍ଚ ହୋଇଥିବା ବିବରଣୀ ପାଇଁ କଲେଜ ସହ ଯୋଗାଯୋଗ କରନ୍ତୁ।
+            </p>
+
+            <a class="btn btn-secondary" href="contact.html">
+              Contact the College / କଲେଜ ସହ ଯୋଗାଯୋଗ କରନ୍ତୁ
+            </a>
+          </div>
+        </noscript>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>
+        © <span data-year>2026</span>
+        <span data-i18n="footer">Sriram College of Nursing</span>
+      </span>
+      <span class="muted">Kendrapara, Odisha</span>
+    </div>
+  </footer>
+</body>
+</html>

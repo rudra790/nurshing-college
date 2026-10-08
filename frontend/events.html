@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Events | Sriram College of Nursing</title>
+  <meta
+    name="description"
+    content="Explore demo campus activity concepts for Sriram College of Nursing, Kendrapara, Odisha. Event dates and details require college verification."
+  >
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#102d40">
+
+  <!-- CHANGE BEFORE PUBLISHING:
+       Replace the domain and verify all event information.
+       Remove noindex only after content approval. -->
+  <link rel="canonical" href="https://example.invalid/events.html">
+
+  <meta property="og:title" content="Events | Sriram College of Nursing">
+  <meta
+    property="og:description"
+    content="Campus activity preview. Demo concepts are not confirmed scheduled or completed events."
+  >
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.invalid/events.html">
+
+  <!-- CHANGE BEFORE PUBLISHING: approve the college favicon. -->
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/animations.css">
+
+  <script defer src="js/api.js"></script>
+  <script defer src="js/main.js"></script>
+  <script defer src="js/events.js"></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">
+    Skip to content
+  </a>
+
+  <!-- main.js replaces this fallback with shared navigation. -->
+  <header class="site-header" id="site-header">
+    <div class="announcement-bar">
+      <div class="container">
+        <!-- CHANGE BEFORE PUBLISHING: approve announcement text. -->
+        <p class="announcement-text">
+          For course and admission information, contact the college.
+        </p>
+      </div>
+    </div>
+
+    <nav class="main-navbar" aria-label="Primary navigation">
+      <div class="container navbar-inner">
+        <a
+          class="navbar-brand"
+          href="index.html"
+          aria-label="Sriram College of Nursing home"
+        >
+          <img
+            class="navbar-logo"
+            src="assets/images/logo/college-logo.jpeg"
+            alt="Sriram College of Nursing — Healing Hands"
+            width="864"
+            height="417"
+          >
+        </a>
+
+        <div class="header-fallback-links">
+          <a href="index.html">Home</a>
+          <a href="events.html" aria-current="page">Events</a>
+          <a href="contact.html">Contact</a>
+        </div>
+
+        <div
+          class="language-switch"
+          role="group"
+          aria-label="Choose language / ଭାଷା ବାଛନ୍ତୁ"
+        >
+          <button
+            type="button"
+            data-language="en"
+            aria-pressed="true"
+            lang="en"
+          >
+            English
+          </button>
+
+          <button
+            type="button"
+            data-language="or"
+            aria-pressed="false"
+            lang="or"
+          >
+            ଓଡ଼ିଆ
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <!-- EVENTS / CAMPUS ACTIVITIES
+         CHANGE BEFORE PUBLISHING:
+         Replace demo records in backend/data/events.json.
+         Confirm dates, locations, status and photograph permissions.
+         A campus photograph is not evidence that an event occurred. -->
+    <section
+      id="events"
+      class="events-section section"
+      aria-labelledby="events-title"
+    >
+      <div class="container">
+        <header class="section-header">
+          <p class="section-label" data-events-text="eyebrow">
+            Campus Life
+          </p>
+
+          <h1 id="events-title" data-events-text="title">
+            Learning Beyond the Classroom
+          </h1>
+
+          <p class="section-description" data-events-text="description">
+            Explore demo concepts for academic activities, workshops and
+            campus experiences. Confirmed college events will be added
+            after verification.
+          </p>
+        </header>
+
+        <p class="events-demo-note" data-events-text="demoNotice">
+          Demo activity concepts — these are not confirmed scheduled or
+          completed events. Dates, locations and details remain unverified.
+        </p>
+
+        <div
+          id="events-status"
+          class="events-status"
+          role="status"
+          aria-live="polite"
+          aria-atomic="true"
+        >
+          <p data-events-text="initialStatus">
+            Event information will load here.
+          </p>
+        </div>
+
+        <!-- events.js renders records from /api/events.
+             Homepage View Details links target these rendered cards. -->
+        <div
+          id="events-grid"
+          class="events-grid"
+          aria-busy="false"
+        ></div>
+
+        <noscript>
+          <div class="events-noscript">
+            <p>
+              JavaScript is required to load event information.
+              Contact the college for confirmed campus updates.
+            </p>
+
+            <p lang="or">
+              କାର୍ଯ୍ୟକ୍ରମ ସୂଚନା ଦେଖିବା ପାଇଁ ଜାଭାସ୍କ୍ରିପ୍ଟ ଆବଶ୍ୟକ।
+              ନିଶ୍ଚିତ କ୍ୟାମ୍ପସ୍ ସୂଚନା ପାଇଁ କଲେଜ ସହ ଯୋଗାଯୋଗ କରନ୍ତୁ।
+            </p>
+
+            <a class="btn btn-primary" href="tel:07978109125">
+              Call / ଫୋନ୍ କରନ୍ତୁ: 079781 09125
+            </a>
+          </div>
+        </noscript>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>
+        © <span data-year>2026</span>
+        <span data-i18n="footer">Sriram College of Nursing</span>
+      </span>
+      <span class="muted">Kendrapara, Odisha</span>
+    </div>
+  </footer>
+</body>
+</html>

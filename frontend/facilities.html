@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Facilities | Sriram College of Nursing</title>
+
+  <meta
+    name="description"
+    content="Explore demo facility profiles for Sriram College of Nursing, Kendrapara, Odisha. Facility information awaits college verification."
+  >
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#102d40">
+
+  <!-- CHANGE BEFORE PUBLISHING:
+       Replace example.invalid with the approved college domain.
+       Verify all content before removing noindex. -->
+  <link rel="canonical" href="https://example.invalid/facilities.html">
+
+  <meta
+    property="og:title"
+    content="Facilities | Sriram College of Nursing"
+  >
+  <meta
+    property="og:description"
+    content="Learning environment preview with supplied photographs. Facility details require college confirmation."
+  >
+  <meta property="og:type" content="website">
+  <meta
+    property="og:url"
+    content="https://example.invalid/facilities.html"
+  >
+
+  <!-- CHANGE BEFORE PUBLISHING: approve the college favicon. -->
+  <link
+    rel="icon"
+    href="assets/icons/favicon.svg"
+    type="image/svg+xml"
+  >
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/animations.css">
+
+  <!-- Keep this order: API helper, shared navigation, facility renderer. -->
+  <script defer src="js/api.js"></script>
+  <script defer src="js/main.js"></script>
+  <script defer src="js/facilities.js"></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">
+    Skip to content
+  </a>
+
+  <!-- Shared navigation is built by main.js.
+       This header provides navigation when JavaScript is unavailable. -->
+  <header class="site-header" id="site-header">
+    <div class="announcement-bar">
+      <div class="container">
+        <!-- CHANGE BEFORE PUBLISHING: approve announcement text. -->
+        <p class="announcement-text">
+          For course and admission information, contact the college.
+        </p>
+      </div>
+    </div>
+
+    <nav class="main-navbar" aria-label="Primary navigation">
+      <div class="container navbar-inner">
+        <a
+          class="navbar-brand"
+          href="index.html"
+          aria-label="Sriram College of Nursing home"
+        >
+          <img
+            class="navbar-logo"
+            src="assets/images/logo/college-logo.jpeg"
+            alt="Sriram College of Nursing — Healing Hands"
+            width="864"
+            height="417"
+          >
+        </a>
+
+        <div class="header-fallback-links">
+          <a href="index.html">Home</a>
+          <a href="facilities.html" aria-current="page">Facilities</a>
+          <a href="contact.html">Contact</a>
+        </div>
+
+        <div
+          class="language-switch"
+          role="group"
+          aria-label="Choose language / ଭାଷା ବାଛନ୍ତୁ"
+        >
+          <button
+            type="button"
+            data-language="en"
+            aria-pressed="true"
+            lang="en"
+          >
+            English
+          </button>
+
+          <button
+            type="button"
+            data-language="or"
+            aria-pressed="false"
+            lang="or"
+          >
+            ଓଡ଼ିଆ
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <!-- FACILITIES
+         CHANGE BEFORE PUBLISHING:
+         Update backend/data/facilities.json with verified information.
+         Confirm facility names, descriptions and photograph permissions. -->
+    <section
+      id="facilities"
+      class="facilities-section section"
+      aria-labelledby="facilities-title"
+    >
+      <div class="container">
+        <header class="section-header">
+          <p class="section-label" data-facilities-text="eyebrow">
+            Our Facilities
+          </p>
+
+          <h1 id="facilities-title" data-facilities-text="title">
+            A Learning Environment Designed for Growth
+          </h1>
+
+          <p
+            class="section-description"
+            data-facilities-text="description"
+          >
+            Explore these demo profiles of learning spaces and resources,
+            illustrated with supplied photographs. Facility details require
+            college confirmation.
+          </p>
+        </header>
+
+        <p
+          class="facilities-demo-note"
+          data-facilities-text="demoNotice"
+        >
+          Demo facility profiles — names, availability, descriptions and
+          photograph attribution require college verification.
+        </p>
+
+        <div
+          id="facilities-status"
+          class="facilities-status"
+          role="status"
+          aria-live="polite"
+          aria-atomic="true"
+        >
+          <p data-facilities-text="initialStatus">
+            Facility information will load here.
+          </p>
+        </div>
+
+        <!-- facilities.js loads /api/facilities and renders cards here.
+             Maintain individual facility information in JSON only. -->
+        <div
+          id="facilities-grid"
+          class="facilities-grid"
+          aria-busy="false"
+        ></div>
+
+        <noscript>
+          <div class="facilities-noscript">
+            <p>
+              JavaScript is required to load facility profiles.
+              Contact the college for verified facility information.
+            </p>
+
+            <p lang="or">
+              ସୁବିଧାଗୁଡ଼ିକର ପରିଚୟ ଦେଖିବା ପାଇଁ ଜାଭାସ୍କ୍ରିପ୍ଟ ଆବଶ୍ୟକ।
+              ଯାଞ୍ଚ ହୋଇଥିବା ତଥ୍ୟ ପାଇଁ କଲେଜ ସହ ଯୋଗାଯୋଗ କରନ୍ତୁ।
+            </p>
+
+            <a class="btn btn-primary" href="tel:07978109125">
+              Call / ଫୋନ୍ କରନ୍ତୁ: 079781 09125
+            </a>
+          </div>
+        </noscript>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>
+        © <span data-year>2026</span>
+        <span data-i18n="footer">Sriram College of Nursing</span>
+      </span>
+
+      <span class="muted">Kendrapara, Odisha</span>
+    </div>
+  </footer>
+</body>
+</html>

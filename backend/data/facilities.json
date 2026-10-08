@@ -1,0 +1,74 @@
+[
+  {
+    "id": "nursing-skills-lab",
+    "demo": true,
+    "name": "Nursing Skills Laboratory",
+    "category": "Practical Learning",
+    "description": "Demo profile for a nursing practice space. The supplied photograph shows training beds and mannequins. The college must confirm the facility name, available equipment and student access before publication.",
+    "image": "/assets/images/facilities/nursing-lab.jpg",
+    "image_alt": "Training beds and nursing practice mannequins arranged in a laboratory",
+    "replacement_note": "CHANGE BEFORE PUBLISHING: Confirm the official facility name, description, photograph attribution and permission to publish. Set demo to false only after verification.",
+    "translations": {
+      "or": {
+        "name": "ନର୍ସିଂ ଦକ୍ଷତା ପ୍ରୟୋଗଶାଳା",
+        "category": "ବ୍ୟବହାରିକ ଶିକ୍ଷା",
+        "description": "ନର୍ସିଂ ଅଭ୍ୟାସ ସ୍ଥାନର ନମୁନା ପରିଚୟ। ଦିଆଯାଇଥିବା ଫଟୋରେ ପ୍ରଶିକ୍ଷଣ ଶଯ୍ୟା ଏବଂ ଅଭ୍ୟାସ ପାଇଁ ମାନବ ଆକୃତିର ମଡେଲ୍ ଦେଖାଯାଉଛି। ପ୍ରକାଶନ ପୂର୍ବରୁ କଲେଜ ଏହାର ନାମ, ଉପକରଣ ଏବଂ ଛାତ୍ରଛାତ୍ରୀଙ୍କ ବ୍ୟବହାର ସୁବିଧା ନିଶ୍ଚିତ କରିବା ଆବଶ୍ୟକ।",
+        "image_alt": "ପ୍ରୟୋଗଶାଳାରେ ସଜାଯାଇଥିବା ପ୍ରଶିକ୍ଷଣ ଶଯ୍ୟା ଏବଂ ନର୍ସିଂ ଅଭ୍ୟାସ ମଡେଲ୍"
+      }
+    }
+  },
+  {
+    "id": "anatomy-learning",
+    "demo": true,
+    "name": "Anatomy Learning Resources",
+    "category": "Learning Resource",
+    "description": "Demo profile for anatomy teaching resources. The supplied photograph shows a head and torso anatomical model. The college must confirm the available resources and their use in teaching.",
+    "image": "/assets/images/facilities/anatomy-model.jpg",
+    "image_alt": "An anatomical head and torso model showing internal structures",
+    "replacement_note": "CHANGE BEFORE PUBLISHING: Confirm the approved resource name, teaching use, photograph attribution and publication permission. Set demo to false only after verification.",
+    "translations": {
+      "or": {
+        "name": "ଶରୀର ଗଠନ ଅଧ୍ୟୟନ ସାମଗ୍ରୀ",
+        "category": "ଶିକ୍ଷା ସାମଗ୍ରୀ",
+        "description": "ଶରୀର ଗଠନ ଶିକ୍ଷା ସାମଗ୍ରୀର ନମୁନା ପରିଚୟ। ଦିଆଯାଇଥିବା ଫଟୋରେ ମୁଣ୍ଡ ଏବଂ ଶରୀରର ଉପର ଅଂଶର ଏକ ମଡେଲ୍ ଦେଖାଯାଉଛି। ଉପଲବ୍ଧ ସାମଗ୍ରୀ ଏବଂ ଶିକ୍ଷାଦାନରେ ଏହାର ବ୍ୟବହାର କଲେଜ ନିଶ୍ଚିତ କରିବା ଆବଶ୍ୟକ।",
+        "image_alt": "ଆଭ୍ୟନ୍ତରୀଣ ଗଠନ ଦେଖାଉଥିବା ମୁଣ୍ଡ ଏବଂ ଶରୀରର ଉପର ଅଂଶର ମଡେଲ୍"
+      }
+    }
+  },
+  {
+    "id": "community-health-practice",
+    "demo": true,
+    "name": "Community Health Practice Resources",
+    "category": "Practical Learning",
+    "description": "Demo profile for community health practice resources. The supplied photograph shows a bag-technique demonstration table and teaching materials. The college must confirm the official facility details.",
+    "image": "/assets/images/facilities/community-health-lab.jpg",
+    "image_alt": "A bag-technique demonstration table with a nursing bag and practice materials",
+    "replacement_note": "CHANGE BEFORE PUBLISHING: Confirm the official facility name, description, photograph attribution and publication permission. Set demo to false only after verification.",
+    "translations": {
+      "or": {
+        "name": "ଗୋଷ୍ଠୀ ସ୍ୱାସ୍ଥ୍ୟ ଅଭ୍ୟାସ ସାମଗ୍ରୀ",
+        "category": "ବ୍ୟବହାରିକ ଶିକ୍ଷା",
+        "description": "ଗୋଷ୍ଠୀ ସ୍ୱାସ୍ଥ୍ୟ ଅଭ୍ୟାସ ସାମଗ୍ରୀର ନମୁନା ପରିଚୟ। ଦିଆଯାଇଥିବା ଫଟୋରେ ବ୍ୟାଗ୍ ଟେକ୍ନିକ୍ ପ୍ରଦର୍ଶନ ପାଇଁ ଏକ ଟେବୁଲ୍ ଏବଂ ଶିକ୍ଷା ସାମଗ୍ରୀ ଦେଖାଯାଉଛି। କଲେଜ ଏହାର ଅଧିକୃତ ବିବରଣୀ ନିଶ୍ଚିତ କରିବା ଆବଶ୍ୟକ।",
+        "image_alt": "ନର୍ସିଂ ବ୍ୟାଗ୍ ଏବଂ ଅଭ୍ୟାସ ସାମଗ୍ରୀ ସହିତ ବ୍ୟାଗ୍ ଟେକ୍ନିକ୍ ପ୍ରଦର୍ଶନ ଟେବୁଲ୍"
+      }
+    }
+  },
+  {
+    "id": "campus-environment",
+    "demo": true,
+    "name": "Campus Environment",
+    "category": "Campus",
+    "description": "Demo campus profile using the supplied college building photograph. Contact the college for confirmed information about campus spaces, accessibility and student facilities.",
+    "image": "/assets/images/hero/campus-building.jpeg",
+    "image_alt": "Exterior of the Sriram College of Nursing campus building",
+    "replacement_note": "CHANGE BEFORE PUBLISHING: Replace this draft with approved campus information and confirm photograph permissions. Set demo to false only after verification.",
+    "translations": {
+      "or": {
+        "name": "କ୍ୟାମ୍ପସ୍ ପରିବେଶ",
+        "category": "କ୍ୟାମ୍ପସ୍",
+        "description": "ଦିଆଯାଇଥିବା କଲେଜ ଭବନର ଫଟୋ ସହିତ କ୍ୟାମ୍ପସ୍‌ର ନମୁନା ପରିଚୟ। କ୍ୟାମ୍ପସ୍ ସ୍ଥାନ, ପ୍ରବେଶ ସୁବିଧା ଏବଂ ଛାତ୍ରଛାତ୍ରୀଙ୍କ ସୁବିଧା ସମ୍ବନ୍ଧୀୟ ନିଶ୍ଚିତ ତଥ୍ୟ ପାଇଁ କଲେଜ ସହ ଯୋଗାଯୋଗ କରନ୍ତୁ।",
+        "image_alt": "ଶ୍ରୀରାମ କଲେଜ ଅଫ୍ ନର୍ସିଂ କ୍ୟାମ୍ପସ୍ ଭବନର ବାହ୍ୟ ଦୃଶ୍ୟ"
+      }
+    }
+  }
+]
