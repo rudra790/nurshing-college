@@ -332,7 +332,7 @@
     image.height = 500;
     image.loading = "lazy";
     image.decoding = "async";
-    image.hidden = true;
+    fallback.hidden = true;
 
     image.addEventListener("load", () => {
       image.hidden = false;

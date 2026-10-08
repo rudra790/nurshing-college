@@ -272,7 +272,7 @@
     image.height = 1000;
     image.loading = "lazy";
     image.decoding = "async";
-    image.hidden = true;
+    placeholder.hidden = true;
 
     image.addEventListener("load", () => {
       image.hidden = false;

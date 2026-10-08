@@ -75,6 +75,10 @@ const TRANSLATIONS = {
     closeMenu: "Close navigation menu",
     languageLabel: "Choose language",
     homeLabel: "Sriram College of Nursing home",
+    contactTitle: "Contact the College",
+    contactIntro: "Contact the college for current course information, eligibility requirements and admission guidance.",
+    addressTitle: "Visit the College",
+    contactNote: "Please call ahead to confirm visiting hours and availability.",
   },
 
   or: {
@@ -116,6 +120,10 @@ const TRANSLATIONS = {
     closeMenu: "ନାଭିଗେସନ୍ ବନ୍ଦ କରନ୍ତୁ",
     languageLabel: "ଭାଷା ବାଛନ୍ତୁ",
     homeLabel: "ଶ୍ରୀରାମ କଲେଜ ଅଫ୍ ନର୍ସିଂର ମୂଳ ପୃଷ୍ଠା",
+    contactTitle: "କଲେଜକୁ ଯୋଗାଯୋଗ କରନ୍ତୁ",
+    contactIntro: "ପାଠ୍ୟକ୍ରମ, ଯୋଗ୍ୟତା ଓ ନାମଲେଖା ସୂଚନା ପାଇଁ କଲେଜକୁ ଯୋଗାଯୋଗ କରନ୍ତୁ।",
+    addressTitle: "କଲେଜକୁ ଆସନ୍ତୁ",
+    contactNote: "ଆସିବା ପୂର୍ବରୁ ସମୟ ଓ ଉପଲବ୍ଧତା ନିଶ୍ଚିତ କରିବା ପାଇଁ ଫୋନ୍ କରନ୍ତୁ।",
   },
 };
 
@@ -373,10 +381,12 @@ function buildHeader() {
 }
 
 function updateLanguageLinks() {
-  document.querySelectorAll("[data-header-link]").forEach((link) => {
+  document.querySelectorAll("a[href]").forEach((link) => {
     const url = new URL(link.getAttribute("href"), location.href);
 
-    if (url.origin !== location.origin) return;
+    if (url.origin !== location.origin ||
+        !["http:", "https:", "file:"].includes(url.protocol) ||
+        (!url.pathname.endsWith(".html") && !url.pathname.endsWith("/"))) return;
 
     url.searchParams.set("lang", language);
     link.href = `${url.pathname}${url.search}${url.hash}`;
@@ -464,7 +474,8 @@ function initLanguageControls() {
 }
 
 function initActiveNavigation(more) {
-  const currentFile = getCurrentFile();
+  const currentFile = getCurrentFile() === "course-details.html"
+    ? "courses.html" : getCurrentFile();
 
   document.querySelectorAll("[data-nav-file]").forEach((link) => {
     if (link.dataset.navFile === currentFile) {
@@ -611,6 +622,20 @@ function initMobileNavigation({ drawer, menuButton, closeButton }) {
 function initStickyHeader(header) {
   let framePending = false;
 
+  function updateHeaderHeight() {
+    document.documentElement.style.setProperty(
+      "--sticky-header-height", `${header.getBoundingClientRect().height}px`
+    );
+  }
+
+  // Keep anchor destinations visible as the logo, language and layout change.
+  updateHeaderHeight();
+  if ("ResizeObserver" in window) {
+    new ResizeObserver(updateHeaderHeight).observe(header);
+  } else {
+    window.addEventListener("resize", updateHeaderHeight, { passive: true });
+  }
+
   function update() {
     header.classList.toggle("is-scrolled", window.scrollY > 24);
     framePending = false;
@@ -635,7 +660,8 @@ function initAdmissionLinks() {
     link.addEventListener("click", (event) => {
       const target = document.getElementById("admission");
 
-      if (!target) return;
+      if (!target || event.defaultPrevented || event.button !== 0 ||
+          event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
 
       event.preventDefault();
 

@@ -231,7 +231,8 @@
     image.height = 500;
     image.loading = "lazy";
     image.decoding = "async";
-    image.hidden = true;
+    // Lazy images need a layout box before the browser will fetch them.
+    fallback.hidden = true;
 
     image.addEventListener("load", () => {
       image.hidden = false;

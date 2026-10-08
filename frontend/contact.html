@@ -8,7 +8,7 @@
 
   <meta
     name="description"
-    content="Contact page scaffold for Sriram College of Nursing. Verified information will be added in a later milestone."
+    content="Contact Sriram College of Nursing in Kendrapara for course and admission information."
   >
   <meta name="robots" content="noindex,nofollow">
   <meta name="theme-color" content="#102d40">
@@ -19,19 +19,19 @@
   <meta property="og:title" content="Contact | Sriram College of Nursing">
   <meta
     property="og:description"
-    content="Development scaffold; college content pending."
+    content="Contact the college for current course and admission information."
   >
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://example.invalid/contact.html">
 
   <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
 
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=20261008-1">
   <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" href="css/animations.css">
 
   <script defer src="js/api.js"></script>
-  <script defer src="js/main.js"></script>
+  <script defer src="js/main.js?v=20261008-1"></script>
 </head>
 
 <body>
@@ -42,27 +42,21 @@
   <!-- main.js inserts the shared header before main. -->
 
   <main class="container section" id="main" tabindex="-1">
-    <p class="badge">
-      Development scaffold / ବିକାଶ ନମୁନା
-    </p>
-
-    <h1>
-      Contact / <span lang="or">ଯୋଗାଯୋଗ</span>
-    </h1>
-
-    <p>
-      This page will be built in a later milestone using verified
-      college information.
-    </p>
-
-    <p lang="or">
-      ଯାଞ୍ଚ ହୋଇଥିବା କଲେଜ ତଥ୍ୟ ସହିତ ଏହି ପୃଷ୍ଠା
-      ପରବର୍ତ୍ତୀ ପର୍ଯ୍ୟାୟରେ ତିଆରି ହେବ।
-    </p>
-
-    <a class="btn btn-primary" href="index.html">
-      Home / <span lang="or">ମୂଳ ପୃଷ୍ଠା</span>
-    </a>
+    <section id="admission" aria-labelledby="contact-title" tabindex="-1">
+      <h1 id="contact-title" data-i18n="contactTitle">Contact the College</h1>
+      <p data-i18n="contactIntro">Contact the college for current course information, eligibility requirements and admission guidance.</p>
+      <!-- Contact information already supplied in SITE_CONFIG; confirm before publication. -->
+      <div class="card">
+        <h2 data-i18n="admission">Admission Enquiry</h2>
+        <p><a href="tel:+917978109125">+91 79781 09125</a></p>
+        <a class="btn btn-primary" href="tel:+917978109125" data-i18n="contact">Call the college</a>
+      </div>
+      <div class="section">
+        <h2 data-i18n="addressTitle">Visit the College</h2>
+        <p data-i18n="intro">Near R.T.O. Office, Kasoti, Pandiri, Kendrapara, Odisha – 754250.</p>
+        <p data-i18n="contactNote">Please call ahead to confirm visiting hours and availability.</p>
+      </div>
+    </section>
   </main>
 </body>
 </html>

@@ -249,6 +249,8 @@
 
     if (target) {
       link.addEventListener("click", (event) => {
+        if (event.defaultPrevented || event.button !== 0 || event.ctrlKey ||
+            event.metaKey || event.shiftKey || event.altKey) return;
         event.preventDefault();
 
         if (!target.hasAttribute("tabindex")) {
@@ -514,7 +516,7 @@
     home.href = routeUrl("index.html");
 
     const programs = element("a", "", dictionary().courses);
-    programs.href = routeUrl("index.html#courses");
+    programs.href = routeUrl("courses.html");
 
     const separatorOne = element("span", "", "›");
     const separatorTwo = element("span", "", "›");

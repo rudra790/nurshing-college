@@ -31,18 +31,18 @@
   <!-- CHANGE BEFORE PUBLISHING: use an approved college favicon. -->
   <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
 
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=20261008-2">
   <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" href="css/animations.css">
 
   <script defer src="js/api.js"></script>
-  <script defer src="js/main.js"></script>
+  <script defer src="js/main.js?v=20261008-1"></script>
   <script defer src="js/home.js"></script>
-  <script defer src="js/courses.js"></script>
-  <script defer src="js/faculty.js"></script>
-  <script defer src="js/facilities.js"></script>
-  <script defer src="js/clinical-training.js"></script>
-  <script defer src="js/events.js"></script>
+  <script defer src="js/courses.js?v=20261008-1"></script>
+  <script defer src="js/faculty.js?v=20261008-1"></script>
+  <script defer src="js/facilities.js?v=20261008-1"></script>
+  <script defer src="js/clinical-training.js?v=20261008-1"></script>
+  <script defer src="js/events.js?v=20261008-1"></script>
   <script defer src="js/gallery.js"></script>
   <script defer src="js/notices.js"></script>
 
@@ -114,6 +114,13 @@
   </header>
 
   <main id="main" tabindex="-1">
+    <div class="college-name-banner">
+      <input class="college-name-pause" type="checkbox" id="pause-college-name">
+      <label class="college-name-pause-label" for="pause-college-name">Pause animation</label>
+      <div class="college-name-window">
+        <p class="college-name-track" data-i18n="footer">Sriram College of Nursing</p>
+      </div>
+    </div>
 
     <!-- HERO
          CHANGE BEFORE PUBLISHING: approve introductory copy. -->

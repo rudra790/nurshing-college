@@ -41,7 +41,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 180px;
+  scroll-padding-top: calc(var(--sticky-header-height, 164px) + 16px);
   scrollbar-gutter: stable;
 }
 
@@ -331,6 +331,72 @@ select {
    GLOBAL HEADER
    ================================================== */
 
+.college-name-banner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  align-items: center;
+  column-gap: 8px;
+  padding: 12px 16px 12px 0;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  color: var(--secondary);
+}
+
+.college-name-window {
+  grid-column: 1;
+  grid-row: 1;
+  overflow: hidden;
+}
+
+.college-name-track {
+  width: max-content;
+  margin: 0;
+  font-size: clamp(1.1rem, 2.4vw, 1.8rem);
+  font-weight: 750;
+  white-space: nowrap;
+  animation: college-name-running 18s linear infinite;
+  animation-delay: -3s;
+}
+
+.college-name-pause {
+  grid-column: 2;
+  grid-row: 1;
+  width: 18px;
+  height: 18px;
+  accent-color: var(--secondary);
+}
+
+.college-name-pause-label {
+  grid-column: 3;
+  grid-row: 1;
+  max-width: 7rem;
+  padding-block: 10px;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+.college-name-pause:checked ~ .college-name-window .college-name-track,
+.college-name-window:hover .college-name-track {
+  animation-play-state: paused;
+}
+
+@keyframes college-name-running {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(100vw); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .college-name-banner { display: block; padding: 12px 16px; }
+  .college-name-pause, .college-name-pause-label { display: none; }
+  .college-name-track {
+    width: auto;
+    white-space: normal;
+    text-align: center;
+    animation: none;
+    transform: none;
+  }
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -410,8 +476,8 @@ select {
 
 .navbar-logo {
   width: auto;
-  height: 60px;
-  max-width: 160px;
+  height: 76px;
+  max-width: 180px;
   object-fit: contain;
 }
 
@@ -670,8 +736,8 @@ select {
 
 .drawer-logo {
   width: auto;
-  height: 48px;
-  max-width: 150px;
+  height: 64px;
+  max-width: 170px;
   object-fit: contain;
 }
 
@@ -845,8 +911,8 @@ body.nav-scroll-locked {
   }
 
   .navbar-logo {
-    height: 46px;
-    max-width: 125px;
+    height: 58px;
+    max-width: 140px;
   }
 
   .navbar-actions {
@@ -883,8 +949,8 @@ body.nav-scroll-locked {
 
 @media (max-width: 389px) {
   .navbar-logo {
-    height: 42px;
-    max-width: 110px;
+    height: 52px;
+    max-width: 120px;
   }
 
   .site-header .language-switch button {
